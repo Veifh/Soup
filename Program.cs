@@ -6,6 +6,8 @@ namespace Progect
     {
         public static void Main(string[] args)
         {
+            //ne pupsik
+
             int a = 1;
             int b = 3;
             int c = 4;  
