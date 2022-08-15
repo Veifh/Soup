@@ -8,12 +8,13 @@ namespace Progect
         {
             int a = 1;
             int b = 3;
-            Console.WriteLine(Convert.ToString(Math(a,b)));
+            int c = 4;  
+            Console.WriteLine(Convert.ToString(Math(a,b,c)));
         }
 
-        public static int Math(int a, int b) 
+        public static int Math(int a, int b, int c) 
         {
-            return a + b;
+            return a + b - c;
         }
     }
 }
